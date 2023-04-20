@@ -10,7 +10,9 @@ function products() {
 
     for (const product of db) {
       htmlProduct += `
-      <article class="product">
+      <article class="product" data-aos="flip-left"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="2000">
         <div class="product__image">
           <img src="${product.image}" alt="${product.name}">
         </div>
