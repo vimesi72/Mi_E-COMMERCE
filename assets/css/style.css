@@ -296,19 +296,18 @@ button {
 
 .home {
   display: grid;
-  grid-template-columns:1fr 1fr;
+ 
   width: 100%;
   height: 100%;
   justify-content: center;
-  align-items: center;
+  align-items:end;
 }
 
-.head {
+.home_head {
   display: flex;
-  flex-direction: column;
+  flex-direction:column;
   width: 50%;
-  height: 80%;
-  
+  height: 60%;
 }
 
 .hero-container{
@@ -318,6 +317,10 @@ button {
   
 }
 
+.home_foto{
+  position: relative;
+  top: 100px;
+}
 
 /* Products */
 .products__container {
